@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     parameters {
-        booleanParam(name: "RUN_INTEGRATION_TEST", defaultValue: true)
+        booleanParam(name: "RUN_INTEGRATION_TESTS", defaultValue: true)
     }
 
     stages {
